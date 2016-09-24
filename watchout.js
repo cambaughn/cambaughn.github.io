@@ -1,5 +1,5 @@
 //Amount of asteroids
-var dataArray = d3.range(1,15);
+var dataArray = d3.range(1,20);
 
 //Short hand for selecting body
 var body = d3.select('body');
