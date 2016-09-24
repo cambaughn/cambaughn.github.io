@@ -1,0 +1,111 @@
+/* your beautiful css styling goes here! */
+
+/* Note: an asteroid image is included in this repo.
+Feel free to use it if you like. */
+/* START SOLUTION */
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: helvetica;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+iframe {
+  position: absolute;
+  z-index: 1;
+}
+.mouse {
+  position: absolute;
+  background-color: orange;
+}
+.board {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.spaceBoard {
+  cursor: url('http://4.bp.blogspot.com/-HKe2vwr7g60/UM9kDbK_v8I/AAAAAAAAAPo/L_W6t4riGFA/s64/smallfreighterspr.png'), auto;
+}
+.hackBoard {
+  cursor: url('cody.png'), auto;
+}
+.asteroid {
+  background-image: url('asteroid.png');
+  background-size: 100% 100%;
+  position: absolute;
+}
+.flash {
+  background-color: white;
+  opacity: .5;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.gameOver {
+  background-color: white;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.vis {
+  background-color: black;
+}
+.scoreboard {
+  width: 250px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border-radius: 3px;
+  visibility: hidden;
+}
+.scoreboard div {
+  line-height: 33px;
+  font-size: 25px;
+  float: right;
+}
+
+.overTitle {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.playAgain {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 60%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.welcome {
+  background-color: white;
+  visibility: visible;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* END SOLUTION */
+
