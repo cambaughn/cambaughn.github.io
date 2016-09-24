@@ -58,7 +58,7 @@ var scoreCountInterval;
 
 
 //Append the Lives, High Score, Current Score
-var lives = 5;
+var lives = 10;
 var currentScore = 0;
 var highScore = 0;
 d3.select('.highScore').text(highScore);
